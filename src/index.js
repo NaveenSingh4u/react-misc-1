@@ -1,13 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.json';
+import { NasaAPIV2 } from './NasaAPIV2';
+import { ClassBinding } from './ClassBinding';
+import { SimpleFormValidation } from './SimpleFormValidation';
+import { Tutorial } from './Tutorial';
+import { RouterDemo1 } from './RouterDemo1';
+import { CookiesProvider } from 'react-cookie';
+import { ShoppingIndex } from './ShoppingIndex';
+import { CustomerForm } from './CustomerForm';
+import FormForPostApi from './FormForPostApi';
+import { Userlist } from './Userlist';
+import EditUserlist from './EditUserlist';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+     <Userlist/>
   </React.StrictMode>
 );
 

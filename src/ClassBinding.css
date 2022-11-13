@@ -1,0 +1,15 @@
+.dark-theme {
+    background-color: black;
+    color:white;
+    padding: 10px;
+}
+.invalid-style {
+    border:2px solid red;
+    box-shadow: 2px 2px 3px red;
+    width: 100%;
+}
+.valid-style {
+    border:2px solid green;
+    box-shadow: 2px 2px 3px green;
+    width: 100%;
+}
